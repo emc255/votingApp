@@ -3,7 +3,7 @@ import React, { useState } from "react";
 function Title(props) {
   return (
     <div>
-      <h1>TITLE</h1>
+      <h1>VOTE</h1>
     </div>
   );
 }

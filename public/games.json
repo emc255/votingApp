@@ -1,0 +1,26 @@
+[
+  {
+    "dataId": 0,
+    "userImage": "http://placekitten.com/g/100/100",
+    "name": "final fantasy",
+    "dateRelease": "Square Enix, 2018",
+    "img": "http://placekitten.com/g/200/200",
+    "vote": 0
+  },
+  {
+    "dataId": 1,
+    "userImage": "http://placekitten.com/g/100/100",
+    "name": "God of Wars",
+    "dateRelease": "Square Enix, 2018",
+    "img": "http://placekitten.com/g/201/200",
+    "vote": 0
+  },
+  {
+    "dataId": 2,
+    "userImage": "http://placekitten.com/g/102/100",
+    "name": "Xenogears",
+    "dateRelease": "Square Enix, 2018",
+    "img": "http://placekitten.com/g/202/200",
+    "vote": 0
+  }
+]
