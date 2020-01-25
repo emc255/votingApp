@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 
-function Title(props) {
+function Title() {
   return (
-    <div>
-      <h1>VOTE</h1>
+    <div className="header">
+      <h1>VOTE THE PRETTIEST</h1>
     </div>
   );
 }

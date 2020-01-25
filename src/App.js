@@ -7,11 +7,11 @@ function App() {
   const [datas, setDatas] = useState([]);
 
   useEffect(() => {
-    fetch("games.json")
+    fetch("datas.json")
       .then(res => res.json())
-      .then(resData => {
-        resData.map(data => (data.vote = Math.floor(Math.random() * 50 + 15)));
-        setDatas(resData);
+      .then(resDatas => {
+        resDatas.map(data => (data.vote = Math.floor(Math.random() * 50 + 15)));
+        setDatas(resDatas);
       })
       .catch(err => console.log(err));
   }, []);
@@ -19,24 +19,23 @@ function App() {
   const getVote = vote => {
     let newData = {};
 
-    const addData = datas.filter(data => {
+    datas.filter(data => {
       if (data.dataId === parseInt(vote)) {
-        const plus = data.vote + 1;
-
+        data.vote += 1;
         newData = {
           dataId: data.dataId,
           userImage: data.userImage,
           name: data.name,
           dateRelease: data.dateRelease,
           img: data.img,
-          vote: plus
+          vote: data.vote
         };
       }
     });
 
-    const newDatas = datas.filter(data => data.dataId !== parseInt(vote));
+    const updateDatas = datas.filter(data => data.dataId !== parseInt(vote));
 
-    setDatas([...newDatas, newData]);
+    setDatas([...updateDatas, newData]);
   };
 
   return (

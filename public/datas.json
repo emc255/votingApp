@@ -1,0 +1,26 @@
+[
+  {
+    "dataId": 0,
+    "userImage": "./img/muk.png",
+    "name": "Marian Rivera",
+    "dateRelease": "Philippine Actress, 2014",
+    "img": "./img/marian.jpg",
+    "vote": 0
+  },
+  {
+    "dataId": 1,
+    "userImage": "http://placekitten.com/g/100/100",
+    "name": "Hwang Eun-bi",
+    "dateRelease": "Korean Singer, 2015",
+    "img": "./img/eunbi.jpg",
+    "vote": 0
+  },
+  {
+    "dataId": 2,
+    "userImage": "http://placekitten.com/g/102/100",
+    "name": "Zhu Zhu",
+    "dateRelease": "Chinese Actress, 2011",
+    "img": "./img/zhu.jpg",
+    "vote": 0
+  }
+]
