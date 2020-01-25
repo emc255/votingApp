@@ -28,7 +28,8 @@ function App() {
           name: data.name,
           dateRelease: data.dateRelease,
           img: data.img,
-          vote: data.vote
+          vote: data.vote,
+          atag: data.atag
         };
       }
     });

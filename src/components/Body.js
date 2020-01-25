@@ -16,9 +16,13 @@ function Body(props) {
               data-id={data.dataId}
               onClick={e => props.getVote(e.target.dataset.id)}
             >
-              click
+              vote
             </button>
-            <p className="inner-container-content">{data.name}</p>
+            <p className="inner-container-content">
+              <a className="atag" href={data.atag}>
+                {data.name}
+              </a>
+            </p>
             <p className="inner-container-content">{data.dateRelease}</p>
             <p className="inner-container-content">Submitted by:</p>
             <div className="uploader-img-container">
