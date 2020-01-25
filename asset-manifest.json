@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/votingApp/static/css/main.8a790a76.chunk.css",
+    "main.js": "/votingApp/static/js/main.0c247983.chunk.js",
+    "main.js.map": "/votingApp/static/js/main.0c247983.chunk.js.map",
+    "runtime-main.js": "/votingApp/static/js/runtime-main.41917b72.js",
+    "runtime-main.js.map": "/votingApp/static/js/runtime-main.41917b72.js.map",
+    "static/js/2.920184ed.chunk.js": "/votingApp/static/js/2.920184ed.chunk.js",
+    "static/js/2.920184ed.chunk.js.map": "/votingApp/static/js/2.920184ed.chunk.js.map",
+    "index.html": "/votingApp/index.html",
+    "precache-manifest.6722e5dddf67e53e5509c94f3454fdf7.js": "/votingApp/precache-manifest.6722e5dddf67e53e5509c94f3454fdf7.js",
+    "service-worker.js": "/votingApp/service-worker.js",
+    "static/css/main.8a790a76.chunk.css.map": "/votingApp/static/css/main.8a790a76.chunk.css.map",
+    "static/js/2.920184ed.chunk.js.LICENSE": "/votingApp/static/js/2.920184ed.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41917b72.js",
+    "static/js/2.920184ed.chunk.js",
+    "static/css/main.8a790a76.chunk.css",
+    "static/js/main.0c247983.chunk.js"
+  ]
+}

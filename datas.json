@@ -1,0 +1,48 @@
+[
+  {
+    "dataId": 0,
+    "userImage": "./img/rapidash.jpg",
+    "name": "Marian Rivera",
+    "dateRelease": "Philippine Actress, 2007",
+    "img": "./img/marian.jpg",
+    "vote": 0,
+    "atag": "https://en.wikipedia.org/wiki/Marian_Rivera"
+  },
+  {
+    "dataId": 1,
+    "userImage": "./img/jigglyfuff.jpg",
+    "name": "Hwang Eun-bi",
+    "dateRelease": "Korean Singer, 2015",
+    "img": "./img/eunbi.jpg",
+    "vote": 0,
+    "atag": "https://en.wikipedia.org/wiki/SinB"
+  },
+  {
+    "dataId": 2,
+    "userImage": "./img/staryu.jpg",
+    "name": "Zhu Zhu",
+    "dateRelease": "Chinese Actress, 2011",
+    "img": "./img/zhu.jpg",
+    "vote": 0,
+    "atag": "https://en.wikipedia.org/wiki/Zhu_Zhu"
+  },
+
+  {
+    "dataId": 3,
+    "userImage": "./img/vulpix.jpg",
+    "name": "Minatozaki Sana",
+    "dateRelease": "Japanese Singer, 2015",
+    "img": "./img/sana.jpg",
+    "vote": 0,
+    "atag": "https://en.wikipedia.org/wiki/Sana_(singer)"
+  },
+  {
+    "dataId": 4,
+    "userImage": "./img/abra.jpg",
+    "name": "Emma Watson",
+    "dateRelease": "British Actress, 1999",
+    "img": "./img/emma.jpg",
+    "vote": 0,
+    "atag": "https://en.wikipedia.org/wiki/Emma_Watson"
+  }
+]
